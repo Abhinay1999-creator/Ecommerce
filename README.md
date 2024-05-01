@@ -1,3 +1,5 @@
+The above project is deployed on Vercel app and as a user to check you can add through sign up and add your credentials and through ,login u can login in the app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
