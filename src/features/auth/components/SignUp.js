@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link,Navigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { selectLoggednInUser, createUserAsync } from '../authSlice'
 import { useDispatch, useSelector } from "react-redux";
@@ -11,10 +11,11 @@ function SignUp() {
     const onSubmit = data => console.log(data);
 
     const user = useSelector(selectLoggednInUser)
+    // {user?.email}
 
     return (
         <>
-            {user?.email}
+
             <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                     <img
@@ -29,7 +30,7 @@ function SignUp() {
 
                 <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                     <form className="space-y-6" action="#" method="POST"
-                        onSubmit={handleSubmit((data) => { dispatch(createUserAsync({ email: data.email, password: data.password, addresses:[] }))})}>
+                        onSubmit={handleSubmit((data) => { dispatch(createUserAsync({ email: data.email, password: data.password, addresses: [] })) })}>
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                                 Email address
@@ -101,8 +102,9 @@ function SignUp() {
                                 type="submit"
                                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
-                                Sign Up
+                              Sign Up
                             </button>
+                            
                         </div>
                     </form>
 

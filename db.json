@@ -53,7 +53,10 @@
       "category": "smartphones",
       "thumbnail": "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg"
+        "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1581993192008-63e896f4f744?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ],
       "deleted": true
     },
@@ -2438,44 +2441,12 @@
   ],
   "users": [
     {
-      "email": "bhosalesarjerao1@gmail.com",
+      "email": "abhinay.bhosale@gmail.com",
       "password": "Abhin@y99",
-      "addresses": [
-        {
-          "name": "Abhinay",
-          "email": "abhinay.bhosale99@gmail.com",
-          "phone": "098333 20366",
-          "street": "Sakinaka",
-          "city": "Mumbai",
-          "region": "Maharahsta",
-          "pincode": "400072"
-        },
-        {
-          "name": "Sarjerao Bhosale",
-          "email": "bhosalesarjerao1@gmail.com",
-          "phone": "9769989940",
-          "street": "Sakinaka",
-          "city": "Mumbai",
-          "region": "Maharahsta",
-          "pincode": "400072"
-        },
-        {
-          "name": "Pegasus",
-          "email": "bhosalesarjerao1@gmail.com",
-          "phone": "9769989940",
-          "street": "asalpha",
-          "city": "Pune",
-          "region": "Maharahsta",
-          "pincode": "400072"
-        }
-      ],
+      "addresses": [],
       "id": 1
     }
   ],
-  "cart": [
-   
-  ],
-  "orders": [
-   
-  ]
+  "cart": [],
+  "orders": []
 }

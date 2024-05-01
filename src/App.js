@@ -29,6 +29,7 @@ import  UserOrderPage from './features/pages/UserOrderPage';
 import UserProfile from './features/user/components/UserProfile';
 import UserProfilePage from './features/pages/UserProfilePage';
 import SignoutPage from './features/pages/SignOutPage';
+import UserRegistered from './features/pages/UserRegistered';
 
 const router = createBrowserRouter([
   {
@@ -47,7 +48,10 @@ const router = createBrowserRouter([
     path: "/signup",
     element: <SignUp></SignUp>,
   },
-
+  // {
+  //   path: "/user-registered",
+  //   element: <UserRegistered></UserRegistered>,
+  // },
   {
     path: "/cart",
     element: (<Protected><CartPage></CartPage></Protected>),
@@ -62,15 +66,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/order-success/:id",
-    element: (<OrderSuccess></OrderSuccess>),
+    element: (<Protected><OrderSuccess></OrderSuccess></Protected>),
   },
   {
     path: "/orders",
-    element: (<UserOrderPage></UserOrderPage>),
+    element: (<Protected><UserOrderPage></UserOrderPage></Protected>),
   },
   {
     path: "/profile",
-    element: (<UserProfilePage></UserProfilePage>),
+    element: (<Protected><UserProfilePage></UserProfilePage></Protected>),
   },
   {
     path: "/signout",
