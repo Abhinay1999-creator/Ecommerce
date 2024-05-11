@@ -1,4 +1,6 @@
-The above project is deployed on Vercel app and as a user to check you can add through sign up and add your credentials and through ,login u can login in the app
+The above project is deployed on Vercel app and as a user to check you can add through sign up and add your credentials and through login, u can login in the app
+
+Need to run the server at - json-server db.json --port 8080 in order to login and let the data load
 
 # Getting Started with Create React App
 
